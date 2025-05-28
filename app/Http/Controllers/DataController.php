@@ -103,7 +103,8 @@ class DataController extends Controller
 
         // Buat histori konten
         if ($isiChanged && $statusChanged) {
-            $historiContent = "Update isi dan perubahan status menjadi " . ($statusAktif === null ? 'AKTIF' : 'NON-AKTIF');
+            // $historiContent = "Update isi dan perubahan status menjadi " . ($statusAktif === null ? 'AKTIF' : 'NON-AKTIF');
+            $historiContent = $newIsi;
         } elseif ($isiChanged) {
             $historiContent = $newIsi;
         } elseif ($statusChanged) {
