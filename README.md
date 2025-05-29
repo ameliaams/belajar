@@ -1,7 +1,10 @@
-## Important note
-#### Model
-- Data
-- Histori
+# 📝 KeyNote
 
+### 🎯 Add
+- [x] Tabel (Histori)
+- [x] Model
 
-#### take an extra intention on script
+### 🌐 Hardcode
+- [x] Controller
+- [x] Blade view
+- [x] Model
